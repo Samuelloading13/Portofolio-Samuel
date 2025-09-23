@@ -2,9 +2,6 @@
 
 Selamat datang di repositori website portofolio pribadi saya! Proyek ini awalnya dibuat untuk tugas kuliah Pemrograman Berbasis Web, namun telah dikembangkan lebih lanjut menjadi sebuah etalase digital yang modern dan interaktif. Website ini dirancang untuk menampilkan profil, keahlian, serta proyek-proyek yang pernah saya kerjakan, dengan fokus pada estetika dan pengalaman pengguna yang memuaskan.
 
-![Pratinjau Portofolio](https://user-images.githubusercontent.com/username/repo/nama-gambar-pratinjau.png)
-*(Tips: Ambil screenshot website Anda, unggah ke repositori, dan ganti link di atas)*
-
 ## ✨ Fitur Unggulan
 
 - **Latar Belakang Dinamis:** Latar belakang gradien yang bergerak secara halus, memberikan kesan hidup dan modern pada halaman.
@@ -32,7 +29,7 @@ Pengembangan portofolio ini adalah sebuah perjalanan iteratif yang berfokus pada
 1.  **Struktur Awal:** Membangun kerangka dasar HTML dengan bagian-bagian utama: Hero, About, Skills, Projects, dan Contact.
 2.  **Styling Fundamental:** Menerapkan desain awal dengan pendekatan *mobile-first* menggunakan CSS native.
 3.  **Peningkatan Interaktivitas:** Menambahkan JavaScript untuk efek animasi dan fungsionalitas menu mobile.
-4.  **Penyempurnaan Visual (V2):**
+4.  **Penyempurnaan Visual :**
     - Mengganti latar belakang statis dengan gradien animasi.
     - Menambahkan efek *floating* dan *glassmorphism* untuk estetika modern.
     - Menyempurnakan tipografi dan tata letak agar lebih padat dan profesional.
