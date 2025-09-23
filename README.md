@@ -25,5 +25,5 @@ Ini adalah proyek website portofolio pribadi yang dibuat untuk memenuhi tugas ma
 
 ## Tautan Proyek
 
-- **Repository GitHub**: [https://github.com/your-username/portfolio-project](https://github.com/Samuelloading13/Portofolio-Samuel)
-- **Live Demo (Vercel)**: [https://your-project-name.vercel.app/](https://your-project-name.vercel.app/)
+- **Repository GitHub**: [https://github.com/Samuelloading13/Portofolio-Samuel](https://github.com/Samuelloading13/Portofolio-Samuel)
+- **Live Demo (Vercel)**: [https://nama-proyek-vercel-anda.vercel.app/](https://nama-proyek-vercel-anda.vercel.app/)
