@@ -1,40 +1,40 @@
-# Personal Portfolio Website - A Web Development Journey
+# Proyek Website Portofolio Pribadi
 
-Selamat datang di repositori website portofolio pribadi saya. Proyek ini berawal dari sebuah **tugas untuk mata kuliah Pemrograman Berbasis Web** dan menjadi langkah pertama saya dalam menjelajahi dunia pengembangan web.
+Ini adalah proyek website portofolio pribadi yang dibuat untuk memenuhi tugas mata kuliah Pemrograman Berbasis Web. Proyek ini berfungsi sebagai deskripsi dan etalase dari perjalanan saya dalam mempelajari pengembangan web dari dasar.
 
-Sebagai seorang pemula, saya mendedikasikan proyek ini untuk menerapkan konsep-konsep fundamental web development. Seiring berjalannya waktu, proyek tugas ini terus saya kembangkan dan sempurnakan menjadi sebuah etalase digital yang lebih modern dan interaktif, mencerminkan proses belajar saya.
+Website ini dirancang untuk menampilkan profil, keahlian, serta proyek-proyek yang pernah saya kerjakan, dengan fokus pada penerapan konsep-konsep fundamental HTML, CSS, dan JavaScript untuk menciptakan pengalaman pengguna yang modern dan interaktif.
 
-## ✨ Fitur & Konsep yang Dipelajari
+## Deskripsi Proyek
 
-Proyek ini menjadi wadah bagi saya untuk belajar dan mengimplementasikan berbagai fitur, di antaranya:
+Tujuan utama dari proyek ini adalah membangun sebuah website portofolio yang fungsional dan estetis tanpa bergantung pada framework CSS atau JavaScript eksternal. Semua komponen, mulai dari tata letak, animasi, hingga responsivitas, dibuat secara manual untuk memperdalam pemahaman tentang teknologi inti web.
 
--   **Latar Belakang Dinamis:** Belajar menggunakan gradien animasi CSS untuk menciptakan latar belakang yang hidup.
--   **Animasi Interaktif:** Menerapkan efek *hover* yang halus pada elemen-elemen seperti kartu dan tombol untuk meningkatkan pengalaman pengguna.
--   **Manipulasi DOM dengan JavaScript:** Membuat efek teks mengetik dari nol untuk perkenalan yang lebih menarik.
--   **Desain Responsif Penuh:** Memastikan tampilan website dapat beradaptasi dengan baik di semua ukuran layar, dari desktop hingga mobile, termasuk implementasi menu "hamburger" fungsional.
--   **Styling Modern:** Eksperimen dengan teknik CSS seperti *glassmorphism* dan *masking* untuk mencapai estetika visual yang lebih modern.
+Proyek ini mencakup beberapa halaman dan fitur utama:
 
-## 🚀 Teknologi yang Digunakan
+1.  **Struktur & Konten (HTML):**
+    * **Hero Section:** Bagian perkenalan utama.
+    * **About Section:** Deskripsi singkat mengenai diri saya.
+    * **Skills Section:** Galeri visual untuk menampilkan teknologi yang saya kuasai, lengkap dengan logo.
+    * **Projects Section:** Galeri untuk menampilkan proyek-proyek unggulan dengan rasio gambar 1:1.
+    * **Contact Section:** Informasi kontak dan tautan media sosial.
 
-Untuk memaksimalkan proses belajar, proyek ini sengaja dibangun **tanpa menggunakan framework CSS atau JavaScript**. Tujuannya adalah untuk membangun pemahaman yang kuat dari dasar.
+2.  **Tampilan & Animasi (CSS):**
+    * **Desain Responsif:** Tampilan yang dapat beradaptasi dengan baik di berbagai ukuran layar, dari desktop hingga mobile.
+    * **Latar Belakang Dinamis:** Menggunakan gradien animasi untuk memberikan kesan visual yang hidup.
+    * **Efek "Floating":** Animasi halus pada elemen interaktif seperti kartu dan tombol saat disentuh (hover).
+    * **Styling Modern:** Implementasi teknik seperti *glassmorphism* (efek kaca buram) dan *masking* pada gambar.
 
--   **HTML5:** Untuk struktur semantik website.
--   **CSS3 (Vanilla):** Untuk semua styling, layout, animasi, dan desain responsif.
--   **JavaScript (Vanilla):** Untuk semua fungsionalitas interaktif.
+3.  **Interaktivitas (JavaScript):**
+    * **Efek Teks Mengetik:** Animasi teks pada *hero section*.
+    * **Menu "Hamburger":** Navigasi yang fungsional dan rapi untuk tampilan mobile.
+    * **Tombol "Kembali ke Atas":** Fitur fungsional untuk meningkatkan pengalaman navigasi pengguna.
 
-## 🛠️ Dari Tugas Kuliah Menjadi Portofolio
+## Teknologi yang Digunakan
 
-Proses pengembangan proyek ini adalah cerminan dari perjalanan belajar saya:
+-   **HTML5 (Vanilla):** Untuk struktur dan konten website.
+-   **CSS3 (Vanilla):** Untuk styling, layouting, animasi, dan desain responsif.
+-   **JavaScript (Vanilla):** Untuk fungsionalitas interaktif.
 
-1.  **Requirement Tugas:** Membangun website statis sederhana dengan tiga bagian utama (Home, About, Projects) menggunakan HTML dan CSS dasar.
-2.  **Eksplorasi JavaScript:** Menambahkan interaktivitas pertama melalui efek teks mengetik.
-3.  **Penyempurnaan Desain:** Melakukan iterasi pada desain, menambahkan latar belakang dinamis dan efek *glassmorphism* untuk meningkatkan kualitas visual.
-4.  **Fokus pada User Experience (UX):** Mengimplementasikan menu mobile dan tombol "Kembali ke Atas" untuk navigasi yang lebih baik.
-5.  **Deployment:** Mempelajari cara men-deploy proyek web ke platform hosting modern seperti **Vercel** yang terintegrasi dengan GitHub.
+## Tautan Proyek
 
-## 🔗 Tautan Proyek
-
--   **Live Demo (Vercel):** [https://nama-proyek-anda.vercel.app/](https://nama-proyek-anda.vercel.app/)
+-   **Live Demo (Vercel):** [https://nama-proyek-anda.vercel.app/](https://nama-proyek-anda.vercel.app/) *(Jangan lupa ganti dengan link Vercel Anda)*
 -   **Repository GitHub:** [https://github.com/Samuelloading13/Portofolio-Samuel](https://github.com/Samuelloading13/Portofolio-Samuel)
-
-Terima kasih telah melihat proyek hasil belajar saya ini. Segala bentuk masukan akan sangat saya hargai!
