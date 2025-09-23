@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const typingText = document.querySelector('.typing-text');
-    
+
     const words = [
         "an Informatics Student",
         "a Public Relations Staff",
@@ -10,29 +10,34 @@ document.addEventListener('DOMContentLoaded', function() {
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
+    let typeSpeed = 150;
+    let eraseSpeed = 100;
+    let delay = 1500;
 
     function type() {
         const currentWord = words[wordIndex];
-        
+        let displayText;
+
         if (isDeleting) {
-            typingText.textContent = currentWord.substring(0, charIndex - 1);
+            displayText = currentWord.substring(0, charIndex - 1);
             charIndex--;
         } else {
-            typingText.textContent = currentWord.substring(0, charIndex + 1);
+            displayText = currentWord.substring(0, charIndex + 1);
             charIndex++;
         }
 
+        typingText.textContent = displayText;
+
         if (!isDeleting && charIndex === currentWord.length) {
-            setTimeout(() => { isDeleting = true; }, 1500);
-        } 
-        else if (isDeleting && charIndex === 0) {
+            setTimeout(() => { isDeleting = true; }, delay);
+        } else if (isDeleting && charIndex === 0) {
             isDeleting = false;
             wordIndex = (wordIndex + 1) % words.length;
         }
 
-        const typingSpeed = isDeleting ? 100 : 200;
-        
-        setTimeout(type, typingSpeed);
+        const currentSpeed = isDeleting ? eraseSpeed : typeSpeed;
+        setTimeout(type, currentSpeed);
     }
+
     type();
 });
