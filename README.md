@@ -36,5 +36,5 @@ Proyek ini mencakup beberapa halaman dan fitur utama:
 
 ## Tautan Proyek
 
--   **Live Demo (Vercel):** [https://nama-proyek-anda.vercel.app/](https://nama-proyek-anda.vercel.app/) *(Jangan lupa ganti dengan link Vercel Anda)*
+-   **Live Demo (Vercel):** [https://nama-proyek-anda.vercel.app/](https://nama-proyek-anda.vercel.app/)
 -   **Repository GitHub:** [https://github.com/Samuelloading13/Portofolio-Samuel](https://github.com/Samuelloading13/Portofolio-Samuel)
