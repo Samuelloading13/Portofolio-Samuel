@@ -1,4 +1,4 @@
-# Personal Portfolio Website V2
+# Personal Portfolio Website
 
 Selamat datang di repositori website portofolio pribadi saya! Proyek ini awalnya dibuat untuk tugas kuliah Pemrograman Berbasis Web, namun telah dikembangkan lebih lanjut menjadi sebuah etalase digital yang modern dan interaktif. Website ini dirancang untuk menampilkan profil, keahlian, serta proyek-proyek yang pernah saya kerjakan, dengan fokus pada estetika dan pengalaman pengguna yang memuaskan.
 
