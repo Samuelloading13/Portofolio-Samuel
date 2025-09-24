@@ -1,24 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samuel Gurning | Portfolio</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 <body>
 
     <header>
         <nav>
-            <div class="logo">Samuel Gurning.</div>
-            <ul>
+            <div class="logo">Samuel's Profile</div>
+            <ul class="nav-links" id="navLinks">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
         </nav>
     </header>
 
@@ -31,12 +37,12 @@
                     <a href="https://github.com/Samuelloading13" class="github-button" target="_blank">Visit My GitHub</a>
                 </div>
                 <div class="image-container">
-                    <img src="assets/profile-picture.png" alt="Profile Picture of Samuel Gurning">
+                    <img src="assets/profile-picture.png" alt="Foto Profil Samuel Gurning" class="profile-picture">
                 </div>
             </div>
         </section>
 
-        <section id="about">
+        <section id="about" class="content-section">
             <div class="container">
                 <h2>About Me</h2>
                 <p>
@@ -47,71 +53,85 @@
             </div>
         </section>
 
-        <section id="skills">
+        <section id="skills" class="content-section">
             <div class="container">
                 <h2>Technologies I Use</h2>
                 <div class="skills-grid">
-                    <div class="skill-card">Python</div>
-                    <div class="skill-card">C#</div>
-                    <div class="skill-card">HTML5</div>
-                    <div class="skill-card">CSS3</div>
-                    <div class="skill-card">JavaScript</div>
-                    <div class="skill-card">PostgreSQL</div>
+                    <div class="skill-card">
+                        <i class="devicon-python-plain"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="devicon-csharp-plain"></i>
+                        <span>C#</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="devicon-html5-plain"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="devicon-css3-plain"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="devicon-javascript-plain"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="devicon-postgresql-plain"></i>
+                        <span>PostgreSQL</span>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="projects">
+        <section id="projects" class="content-section">
             <div class="container">
                 <h2>My Projects</h2>
-                <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem auto;">
-                    Below are some of the academic projects I've worked on. Each project showcases my ability to solve problems using different technologies.
+                <p style="text-align: center; max-width: 800px; margin: 0 auto 2.5rem auto;">
+                    Below are some of the academic projects I've worked on, each showcasing my ability to solve problems with different technologies.
                 </p>
                 <div class="project-grid">
-
                     <a href="https://github.com/Samuelloading13/Simple-E-Commerce" target="_blank" class="project-card-link">
                         <div class="project-card">
                             <img src="assets/project-ecommerce.jpg" alt="Simple E-Commerce Project">
                             <div class="project-overlay">
                                 <div class="project-info">
                                     <h3>Simple E-Commerce CLI</h3>
-                                    <p>A Python-based command-line e-commerce system for purchasing items. **Built with: Python.**</p>
+                                    <p>A Python-based command-line e-commerce system.</p>
                                 </div>
                             </div>
                         </div>
                     </a>
-
                     <a href="https://github.com/Samuelloading13/KOST-BU-IPUNG" target="_blank" class="project-card-link">
                         <div class="project-card">
                             <img src="assets/project-kost.jpg" alt="Boarding House Project">
                             <div class="project-overlay">
                                 <div class="project-info">
                                     <h3>Boarding House Management System</h3>
-                                    <p>A database management application for a boarding house featuring CRUD functionalities. **Built with: Python & PostgreSQL.**</p>
+                                    <p>A database management app with CRUD functionalities.</p>
                                 </div>
                             </div>
                         </div>
                     </a>
-
                     <a href="https://github.com/Samuelloading13/TASKGUARD" target="_blank" class="project-card-link">
                         <div class="project-card">
                             <img src="assets/project-taskguard.jpg" alt="TaskGuard Project">
                             <div class="project-overlay">
                                 <div class="project-info">
                                     <h3>TaskGuard To-Do List App</h3>
-                                    <p>An intermediate console application for task management using advanced programming concepts. **Built with: Python.**</p>
+                                    <p>An intermediate console application for task management.</p>
                                 </div>
                             </div>
                         </div>
                     </a>
-
                     <a href="https://github.com/NIVRA02/PBOAKHIR1" target="_blank" class="project-card-link">
                         <div class="project-card">
                             <img src="assets/project-pbo.jpg" alt="Cashier App Project">
                             <div class="project-overlay">
                                 <div class="project-info">
                                     <h3>Desktop Cashier Application</h3>
-                                    <p>A cashier system for a food stall, implementing object-oriented programming principles. **Built with: C# & WinForms.**</p>
+                                    <p>A cashier system implementing object-oriented principles.</p>
                                 </div>
                             </div>
                         </div>
@@ -120,23 +140,27 @@
             </div>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="content-section">
             <div class="container">
-                <h2>Contact Me</h2>
+                <h2>Get In Touch</h2>
                 <p>Feel free to reach out to me through any of the platforms below!</p>
                 <div class="contact-links">
-                    <a href="https://www.linkedin.com/in/samuellgurning/" target="_blank">LinkedIn</a>
-                    <a href="https://www.instagram.com/samuellgurning_/" target="_blank">Instagram</a>
-                    <a href="mailto:samuelloading@gmail.com">Email</a>
+                    <a href="https://www.linkedin.com/in/samuellgurning/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://www.instagram.com/samuellgurning_/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="mailto:samuelloading@gmail.com"><i class="fas fa-envelope"></i> Email</a>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Samuel Gurning. All rights reserved.</p>
+        <p>&copy; 2025 Samuel Gurning. All rights reserved.</p>
     </footer>
 
+    <a href="#" class="back-to-top-button" id="backToTopButton" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    
     <script src="script.js"></script>
 </body>
 </html>
